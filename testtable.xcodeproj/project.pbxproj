@@ -13,6 +13,9 @@
 		5F43F16715A377F100770F01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F43F16515A377F100770F01 /* InfoPlist.strings */; };
 		5F43F16915A377F100770F01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F43F16815A377F100770F01 /* main.m */; };
 		5F43F16D15A377F100770F01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F43F16C15A377F100770F01 /* AppDelegate.m */; };
+		5F43F17615A3784E00770F01 /* TableViweController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F43F17415A3784E00770F01 /* TableViweController.m */; };
+		5F43F17715A3784E00770F01 /* TableViweController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F43F17515A3784E00770F01 /* TableViweController.xib */; };
+		5FC28E8815A4596B00A4D14C /* torte.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FC28E8715A4596B00A4D14C /* torte.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,16 @@
 		5F43F15C15A377F100770F01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5F43F15E15A377F100770F01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5F43F16015A377F100770F01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5F43F16415A377F100770F01 /* testtable-Info.plist */ = {isa = PBXFileReference; path = "testtable-Info.plist"; sourceTree = "<group>"; };
+		5F43F16415A377F100770F01 /* testtable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testtable-Info.plist"; sourceTree = "<group>"; };
 		5F43F16615A377F100770F01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F43F16815A377F100770F01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5F43F16A15A377F100770F01 /* testtable-Prefix.pch */ = {isa = PBXFileReference; path = "testtable-Prefix.pch"; sourceTree = "<group>"; };
-		5F43F16B15A377F100770F01 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F43F16A15A377F100770F01 /* testtable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testtable-Prefix.pch"; sourceTree = "<group>"; };
+		5F43F16B15A377F100770F01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5F43F16C15A377F100770F01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F43F17315A3784E00770F01 /* TableViweController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViweController.h; sourceTree = "<group>"; };
+		5F43F17415A3784E00770F01 /* TableViweController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViweController.m; sourceTree = "<group>"; };
+		5F43F17515A3784E00770F01 /* TableViweController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViweController.xib; sourceTree = "<group>"; };
+		5FC28E8715A4596B00A4D14C /* torte.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = torte.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +52,10 @@
 		5F43F14D15A377F000770F01 = {
 			isa = PBXGroup;
 			children = (
+				5F731F0615A4623700B1F876 /* image */,
+				5F43F17315A3784E00770F01 /* TableViweController.h */,
+				5F43F17415A3784E00770F01 /* TableViweController.m */,
+				5F43F17515A3784E00770F01 /* TableViweController.xib */,
 				5F43F16215A377F100770F01 /* testtable */,
 				5F43F15B15A377F100770F01 /* Frameworks */,
 				5F43F15915A377F100770F01 /* Products */,
@@ -88,6 +99,14 @@
 				5F43F16A15A377F100770F01 /* testtable-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F731F0615A4623700B1F876 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				5FC28E8715A4596B00A4D14C /* torte.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F43F16715A377F100770F01 /* InfoPlist.strings in Resources */,
+				5F43F17715A3784E00770F01 /* TableViweController.xib in Resources */,
+				5FC28E8815A4596B00A4D14C /* torte.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +174,7 @@
 			files = (
 				5F43F16915A377F100770F01 /* main.m in Sources */,
 				5F43F16D15A377F100770F01 /* AppDelegate.m in Sources */,
+				5F43F17615A3784E00770F01 /* TableViweController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +278,7 @@
 				5F43F17215A377F100770F01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
